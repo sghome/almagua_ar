@@ -12,8 +12,7 @@ function main() {
 
   const controls = new THREE.OrbitControls(camera, canvas);
 
-  const scene = new THREE.Scene();
-  scene.background = new THREE.Color('#000000');
+
 
   // Ambient Lighting
   var light = new THREE.AmbientLight( 0x404040, 10 );
